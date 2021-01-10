@@ -1,0 +1,38 @@
+@import url(../reveal.js/dist/theme/night.css);
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+ .reveal section img {
+  margin: 15px 0px;
+  background: none;
+  border: 0;
+  box-shadow: none; }
+
+body:after {
+content: "";
+background: transparent url('Italbytz-SF-Color.svg') no-repeat;
+background-size: 90px;
+height: 300px;
+width: 90px;
+position: absolute;
+top: 2%;
+right: 2%;
+}
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: left;
+  z-index:-10;
+  width:50%;
+}
